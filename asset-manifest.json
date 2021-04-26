@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/lite-weather/static/css/main.5fd79c73.chunk.css",
+    "main.js": "/lite-weather/static/js/main.2f0db6e5.chunk.js",
+    "main.js.map": "/lite-weather/static/js/main.2f0db6e5.chunk.js.map",
+    "runtime-main.js": "/lite-weather/static/js/runtime-main.db452902.js",
+    "runtime-main.js.map": "/lite-weather/static/js/runtime-main.db452902.js.map",
+    "static/css/2.ba59658c.chunk.css": "/lite-weather/static/css/2.ba59658c.chunk.css",
+    "static/js/2.5b71f15e.chunk.js": "/lite-weather/static/js/2.5b71f15e.chunk.js",
+    "static/js/2.5b71f15e.chunk.js.map": "/lite-weather/static/js/2.5b71f15e.chunk.js.map",
+    "index.html": "/lite-weather/index.html",
+    "static/css/2.ba59658c.chunk.css.map": "/lite-weather/static/css/2.ba59658c.chunk.css.map",
+    "static/css/main.5fd79c73.chunk.css.map": "/lite-weather/static/css/main.5fd79c73.chunk.css.map",
+    "static/js/2.5b71f15e.chunk.js.LICENSE.txt": "/lite-weather/static/js/2.5b71f15e.chunk.js.LICENSE.txt",
+    "static/media/search_icon.77f1f6d1.svg": "/lite-weather/static/media/search_icon.77f1f6d1.svg",
+    "static/media/star.0668ae3d.svg": "/lite-weather/static/media/star.0668ae3d.svg",
+    "static/media/star_border.cc672ada.svg": "/lite-weather/static/media/star_border.cc672ada.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db452902.js",
+    "static/css/2.ba59658c.chunk.css",
+    "static/js/2.5b71f15e.chunk.js",
+    "static/css/main.5fd79c73.chunk.css",
+    "static/js/main.2f0db6e5.chunk.js"
+  ]
+}
