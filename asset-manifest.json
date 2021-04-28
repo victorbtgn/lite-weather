@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/lite-weather/static/css/main.d3080e03.chunk.css",
-    "main.js": "/lite-weather/static/js/main.1cfd66aa.chunk.js",
-    "main.js.map": "/lite-weather/static/js/main.1cfd66aa.chunk.js.map",
+    "main.css": "/lite-weather/static/css/main.d1517c10.chunk.css",
+    "main.js": "/lite-weather/static/js/main.64551ffe.chunk.js",
+    "main.js.map": "/lite-weather/static/js/main.64551ffe.chunk.js.map",
     "runtime-main.js": "/lite-weather/static/js/runtime-main.db452902.js",
     "runtime-main.js.map": "/lite-weather/static/js/runtime-main.db452902.js.map",
     "static/css/2.ba59658c.chunk.css": "/lite-weather/static/css/2.ba59658c.chunk.css",
-    "static/js/2.ac054ae0.chunk.js": "/lite-weather/static/js/2.ac054ae0.chunk.js",
-    "static/js/2.ac054ae0.chunk.js.map": "/lite-weather/static/js/2.ac054ae0.chunk.js.map",
+    "static/js/2.368a9741.chunk.js": "/lite-weather/static/js/2.368a9741.chunk.js",
+    "static/js/2.368a9741.chunk.js.map": "/lite-weather/static/js/2.368a9741.chunk.js.map",
     "index.html": "/lite-weather/index.html",
     "static/css/2.ba59658c.chunk.css.map": "/lite-weather/static/css/2.ba59658c.chunk.css.map",
-    "static/css/main.d3080e03.chunk.css.map": "/lite-weather/static/css/main.d3080e03.chunk.css.map",
-    "static/js/2.ac054ae0.chunk.js.LICENSE.txt": "/lite-weather/static/js/2.ac054ae0.chunk.js.LICENSE.txt",
+    "static/css/main.d1517c10.chunk.css.map": "/lite-weather/static/css/main.d1517c10.chunk.css.map",
+    "static/js/2.368a9741.chunk.js.LICENSE.txt": "/lite-weather/static/js/2.368a9741.chunk.js.LICENSE.txt",
+    "static/media/air-pressure.cb8b879c.svg": "/lite-weather/static/media/air-pressure.cb8b879c.svg",
+    "static/media/air.9d8ce0ac.svg": "/lite-weather/static/media/air.9d8ce0ac.svg",
     "static/media/arrow.251d2bbf.svg": "/lite-weather/static/media/arrow.251d2bbf.svg",
+    "static/media/humidity.1c7aa443.svg": "/lite-weather/static/media/humidity.1c7aa443.svg",
     "static/media/search_icon.77f1f6d1.svg": "/lite-weather/static/media/search_icon.77f1f6d1.svg",
     "static/media/star.0668ae3d.svg": "/lite-weather/static/media/star.0668ae3d.svg",
-    "static/media/star_border.cc672ada.svg": "/lite-weather/static/media/star_border.cc672ada.svg"
+    "static/media/star_border.cc672ada.svg": "/lite-weather/static/media/star_border.cc672ada.svg",
+    "static/media/sunrise.fe8ad8a4.svg": "/lite-weather/static/media/sunrise.fe8ad8a4.svg",
+    "static/media/sunset.9062c455.svg": "/lite-weather/static/media/sunset.9062c455.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.db452902.js",
     "static/css/2.ba59658c.chunk.css",
-    "static/js/2.ac054ae0.chunk.js",
-    "static/css/main.d3080e03.chunk.css",
-    "static/js/main.1cfd66aa.chunk.js"
+    "static/js/2.368a9741.chunk.js",
+    "static/css/main.d1517c10.chunk.css",
+    "static/js/main.64551ffe.chunk.js"
   ]
 }
