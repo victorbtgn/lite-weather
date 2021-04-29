@@ -1,0 +1,73 @@
+@import "src/styles/shared.scss";
+
+.TodayWeather {
+  padding: 10px;
+  text-align: center;
+
+  &-city {
+    font-size: $title-city-name-mobile;
+    color: $primary-font-color;
+    margin-bottom: $margin-bottom-mobile;
+  }
+
+  &-description {
+    font-size: $title-date-name-mobile;
+    color: $primary-font-color;
+    // margin-bottom: $margin-bottom-mobile;
+  }
+
+  &-temperature {
+    font-size: $title-temperature-name-mobile;
+    color: $primary-font-color;
+  }
+
+  &-svg {
+    width: $svg-icon-size;
+    fill: $primary-font-color;
+  }
+}
+
+.borderBottom {
+  &::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    margin: 20px auto 15px;
+    background-color: $primary-font-color;
+  }
+}
+.dflex {
+  display: flex;
+  align-items: center;
+
+  &-icon {
+    flex-basis: calc(50% - 45px);
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
+}
+.solarValue {
+  display: flex;
+  &-sunrise {
+    flex-basis: calc(50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+  }
+  &-sunset {
+    display: flex;
+    align-items: center;
+  }
+}
+.symbol {
+  font-size: 14px;
+}
+
+.Loader {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}

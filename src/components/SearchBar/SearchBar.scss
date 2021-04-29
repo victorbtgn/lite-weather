@@ -1,0 +1,40 @@
+@import "src/styles/shared.scss";
+
+.SearchBar {
+  height: 30px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+
+  &-form {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid $primary-font-color;
+    border-radius: 15px;
+    margin: 0 auto;
+
+    &_input {
+      width: 100%;
+      color: $primary-font-color;
+
+      &::placeholder {
+        color: $placeholders-font-color;
+      }
+    }
+
+    &_btn {
+      padding: 5px;
+      fill: $primary-font-color;
+    }
+
+    &_svg {
+      width: $svg-icon-size;
+    }
+  }
+
+  &-favorite {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}

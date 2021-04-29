@@ -1,0 +1,21 @@
+@import "src/styles/shared.scss";
+
+.FavoriteItem {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &-btn_icon {
+    padding: 5px 0 5px 5px;
+    fill: $primary-font-color;
+  }
+
+  &-btn_name {
+    padding: 5px 5px 5px 0;
+    color: $primary-font-color;
+  }
+
+  &-svg {
+    width: $svg-icon-size;
+  }
+}
