@@ -1,4 +1,4 @@
-export const getCurrentDate = () => new Date().toLocaleDateString('ua', {
+export const getCurrentDate = (unixTime, lang) => new Date(unixTime * 1000).toLocaleDateString(lang, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',

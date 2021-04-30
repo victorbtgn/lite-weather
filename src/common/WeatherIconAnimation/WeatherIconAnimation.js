@@ -18,16 +18,16 @@ export default function WeatherIconAnimation({ weatherId }) {
     
     return(
         <div className='WeatherIconAnimation'>
-            {weatherId === 800 && <div className={`${isDayOrNight()}`}></div>}
+            {(weatherId === 800 || weatherId === 801) && <div className={`${isDayOrNight()}`}></div>}
             {/* Sunny or Moony */}
 
-            {(weatherId === 801 || weatherId === 802) && <div className="partly_cloudy">
+            {(weatherId === 802 || weatherId === 803) && <div className="partly_cloudy">
                 <div className={`partly_cloudy__${isDayOrNight()}`}></div>
                 <div className="partly_cloudy__cloud"></div>
             </div>}
             {/* Partly cloudy */}
 
-            {(weatherId === 803 || weatherId === 804) && <div className="cloudy"></div>}
+            {weatherId === 804 && <div className="cloudy"></div>}
             {/* Cloudy */}
 
             {300 <= weatherId && weatherId <= 321 && <div className="rainy">

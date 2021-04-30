@@ -3,10 +3,11 @@
 .SearchBar {
   height: 30px;
   padding-top: 20px;
+  margin-right: 30px;
   margin-bottom: 40px;
 
   &-form {
-    width: 250px;
+    width: 220px;
     display: flex;
     justify-content: space-between;
     align-items: center;

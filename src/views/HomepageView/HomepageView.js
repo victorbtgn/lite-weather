@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react';
 import { getLastCity } from '../../assets/local-storage-service';
 
 import SearchBar from '../../components/SearchBar/SearchBar';
+// import LangBar from '../../components/LangBar/LangBar';
 import TodayWeather from '../../components/TodayWeather/TodayWeather';
+
 import './HomepageView.scss';
 
 let lang = 'ua';
@@ -21,9 +23,13 @@ export default function HomepageView() {
   };
 
     return (
-      <>
-        <SearchBar formSubmit={formSubmit} />
+      <main className='HomepageView'>
+        <div className='HomepageView-header'>
+          <SearchBar formSubmit={formSubmit} />
+          {/* <LangBar /> */}
+        </div>
+        
         <TodayWeather city={city} lang={lang} />
-      </>
+      </main>
   );
 };
