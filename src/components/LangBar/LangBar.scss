@@ -1,6 +1,7 @@
 @import "src/styles/shared.scss";
 
 .LangBar {
-  width: 30px;
-  height: 30px;
+  &-input {
+    width: 0;
+  }
 }

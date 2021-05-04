@@ -25,6 +25,7 @@ export default function TodayWeather({ city, lang }) {
     const [error, setError] = useState(null);
 
     useEffect(() => {
+        setTodayData(null);
         getTodayWeather(city, lang)
             .then(data => {
                 if(data?.message === 'city not found') return setError(data);
